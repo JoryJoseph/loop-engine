@@ -1,0 +1,57 @@
+.container{
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: center;
+ justify-content:center;
+  margin-top: 100px;
+}
+
+.searchbar{
+  grid-row:3;
+}
+
+.logo-text{
+  grid-row:2;
+  margin-bottom:10px;
+ font-family: 'Shadows Into Light', cursive;
+ font-size:30px;
+ text-align:center;
+ color:white;
+}
+
+.logo-icon{
+  grid-row:1;
+  padding:10px;
+  font-size:35px;
+  text-align:center;
+  color:white;
+}
+
+.searchbar p{
+  text-align:right;
+  font-size: 14px;
+}
+
+.searchbar input{
+  width:630px;
+  height:23px;
+  box-shadow: 5px 4px #034431;
+}
+
+body{
+    background-image: url("searchbar.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.searchbar p{
+   color: #F38C17;
+    transition: transform .6s;
+    
+}
+
+.searchbar p:hover{
+    
+    transform:scale(1.4);
+}
